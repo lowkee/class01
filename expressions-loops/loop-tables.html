@@ -1,0 +1,35 @@
+for (var x = 0; x<=17; x = x +2){
+console.log(2 * x +7);
+}
+                      
+loop count    value of x    output
+01            0             11
+02            11            29
+03            29            //no output x is no longer <=17 
+
+
+var alpha = 'mpeuorwr';
+var s1 = '';
+var s2 = '';
+
+for(var index = 0; index < alpha.length; index++){
+  if (index % 2 == 0){
+    s1 = s1 + alpha.substr(index, 1);
+   } else {
+    s2 = s2 + alpha.substr(index, 1);
+   }
+  }
+                                       
+console.log(s1 + s2);
+                                       
+loop count  value of index  value of s1    value of s2    output
+01          0               m                             m
+02          1                               p             pm
+03          2               e                             epm
+04          3                               u             uepm
+05          4               o                             ouepm
+06          5                               r             rouepm
+07          6               w                             wrouepm
+08          7                               r             rwrouepm 
+09          8
+                                        meowpurr
